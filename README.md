@@ -3,6 +3,9 @@ website using visual studio and python
 1. Learn the basics of coding
 2. Learn programming language most relevant to speech language pathology
 3. Make an awesome website with language games
+4. JavaScript and Data Structures Certification--Basic JavaScript (FreeCodeCamp?)
+5. Scientific Computing with Python Certification
+
 
 <img src="images/Screenshot%20(114).png" width="100">
 
