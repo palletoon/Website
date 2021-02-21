@@ -23,3 +23,15 @@ direct in git bash
 set up virtual environment venv
 ![](images/Screenshot%20(139).png)
 ![](images/Screenshot%20(140).png)
+Codes are:
+which python
+python --version
+source ./venv/Scripts/activate
+which python
+pip install pylint pytest pytest-watch pytest-testmon pytest-describe
+pip freeze
+pip freeze > requirements.txt
+git add requirements.txt
+git status
+git commit -m"venv setup"
+git push
