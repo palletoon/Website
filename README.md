@@ -16,3 +16,5 @@ website using visual studio and python
 ![](images/parrot_problem_2.png)
 ![](images/parrot_problem_3.png)
 ![](images/parrot_problem_JS.png)
+![](images/Screenshot%20(139).png)
+![](images/Screenshot%20(140).png)
