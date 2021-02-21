@@ -20,18 +20,24 @@ direct in git bash
 ![](images/parrot_problem_3.png)
 ![](images/parrot_problem_JS.png)
 
-set up virtual environment venv
+## 02.19.2021 set up virtual environment venv
 ![](images/Screenshot%20(139).png)
 ![](images/Screenshot%20(140).png)
 Codes are:
-which python
-python --version
-source ./venv/Scripts/activate
-which python
-pip install pylint pytest pytest-watch pytest-testmon pytest-describe
-pip freeze
-pip freeze > requirements.txt
-git add requirements.txt
-git status
-git commit -m"venv setup"
-git push
+* which python
+* python --version
+* source ./venv/Scripts/activate
+* which python
+* pip install pylint pytest pytest-watch pytest-testmon pytest-describe
+* pip freeze
+* pip freeze > requirements.txt
+* git add requirements.txt
+* git status
+* git commit -m"venv setup"
+* git push
+
+after writing the test
+* pytest
+* git add
+* git commit -m "sleep_in tests written"
+* git push
