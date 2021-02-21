@@ -21,6 +21,7 @@ direct in git bash
 ![](images/parrot_problem_JS.png)
 
 ## 02.19.2021 set up virtual environment venv
+![](images/Screenshot%20(141).png)
 ![](images/Screenshot%20(139).png)
 ![](images/Screenshot%20(140).png)
 Codes are:
