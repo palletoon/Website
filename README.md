@@ -42,3 +42,8 @@ after writing the test
 * git add
 * git commit -m "sleep_in tests written"
 * git push
+
+## 02.22.2021 continue venv
+* source ./venv/Scripts/activate #activate virtual environment
+* pytest
+* ptw #runs changes automatically
