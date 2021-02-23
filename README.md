@@ -47,3 +47,4 @@ after writing the test
 * source ./venv/Scripts/activate #activate virtual environment
 * pytest
 * ptw #runs changes automatically
+* = assignment == equality comparison
