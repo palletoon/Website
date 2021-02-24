@@ -39,7 +39,7 @@ Codes are:
 
 after writing the test
 * pytest
-* git add
+* git add .
 * git commit -m "sleep_in tests written"
 * git push
 
@@ -48,3 +48,7 @@ after writing the test
 * pytest
 * ptw #runs changes automatically
 * = assignment == equality comparison
+
+## 02.24/2021
+* ctrl + / or control and forward slash marks every line highlited # or comments
+* git status
