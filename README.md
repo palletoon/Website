@@ -56,4 +56,7 @@ after writing the test
 # pylint: disable=unused-variable
 ```
 * makes yellow squiggly underline (means possible variable error) go away
-* M next to 
+* ```python
+./venv/Scripts/activate
+* ```
+* M next to files means modified
