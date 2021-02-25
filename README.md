@@ -52,3 +52,8 @@ after writing the test
 ## 02.24/2021
 * ctrl + / or control and forward slash marks every line highlited # or comments
 * git status
+```python
+# pylint: disable=unused-variable
+```
+* makes yellow squiggly underline (means possible variable error) go away
+* M next to 
