@@ -60,3 +60,26 @@ after writing the test
 ./venv/Scripts/activate
 * ```
 * M next to files means modified
+
+## 02.26.2021
+* 1. Finished monkey_trouble
+* 2. Created JavaScript edition repository on github
+* 3. Clone repository on git and code on visual studio
+![](images/Screenshot%20(150).png)
+* 4. Initiated npm (==pip of Python)
+    first check `which node` then `npm init`
+    add description: My solutions to Coding Bat challenges in JavaScript
+    add test command: jest
+    add author: palletoon <palletoon@gmail.com>
+* 3. Install lingting and testing tool
+    ```js
+    npm install eslint jest --save-dev
+    ```
+    eslint is for linting and jest is the testing --only required by developers and development dependencies. Never upload node_modules file onto github
+* 4. Configure eslint
+   ```js
+   ./node_modules/.bin/eslint --help
+   ./node_modules/.bin/eslint --init
+   ```
+the terminal will walk us through initializing eslint
+![](images/Screenshot%20(151).png)
