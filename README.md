@@ -85,10 +85,10 @@ the terminal will walk us through initializing eslint
 ![](images/Screenshot%20(151).png)
 
 ## 03.01.2021
-* .eslintrc.js gets installed when you initialize eslint
-* can download eslint on the website
-* npm install == yarn add
-* npm i -D eslint-plugin-jest # install
+* 1. Configurated eslint and jest
+```js
+npm i -D eslint-plugin-jest # install
+```
 * in eslintrc.js, under env, under, es2021: true, add 
 ```js
 'jest/globals': true,
@@ -97,17 +97,23 @@ and above rules: {
 ```js
 plugins: ['jest'],
 ```
+
+* 2. Finished sleepIn problem with js
 * creat warmup-1\sleep_in then README.md and sleep_in.spec.js # which is equivalent of test
 ```js
 npm test
 ```
-* camel case (eslint uses this; e.g. sleepIn), snake case (e.g. sleep_in)
+* how to break up commit to keep commit history clean
+*   git add ., git commit -m, git push
+* misc: .eslintrc.js gets installed when you initialize eslint; 
+
+* Tips
+* a. npm install == yarn add
+* b. camel case (eslint uses this; e.g. sleepIn), snake case (e.g. sleep_in)
 * == is checks value but not the data type. === is a strict equal sign that checks value & data type
 * { = then
 * watchmode: 
-* ```js
-* npm test -- --watch
-* ```
+```js
+npm test -- --watch
+```
 * uses jsdoc to write
-* how to break up commit to keep commit history clean
-*   git add ., git commit -m, git push
