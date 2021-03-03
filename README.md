@@ -85,7 +85,7 @@ the terminal will walk us through initializing eslint
 ![](images/Screenshot%20(151).png)
 
 ## 03.01.2021
-* 1. Configurated eslint and jest
+# 1. Configurated eslint and jest
 ```js
 npm i -D eslint-plugin-jest # install
 ```
@@ -98,7 +98,7 @@ and above rules: {
 plugins: ['jest'],
 ```
 
-* 2. Finished sleepIn problem with js
+# 2. Finished sleepIn problem with js
 * creat warmup-1\sleep_in then README.md and sleep_in.spec.js # which is equivalent of test
 ```js
 npm test
@@ -107,7 +107,7 @@ npm test
 *   git add ., git commit -m, git push
 * misc: .eslintrc.js gets installed when you initialize eslint; 
 
-* Tips
+Tips
 * a. npm install == yarn add
 * b. camel case (eslint uses this; e.g. sleepIn), snake case (e.g. sleep_in)
 * == is checks value but not the data type. === is a strict equal sign that checks value & data type
