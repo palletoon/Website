@@ -101,3 +101,13 @@ plugins: ['jest'],
 ```js
 npm test
 ```
+* camel case (eslint uses this; e.g. sleepIn), snake case (e.g. sleep_in)
+* == is checks value but not the data type. === is a strict equal sign that checks value & data type
+* { = then
+* watchmode: 
+* ```js
+* npm test -- --watch
+* ```
+* uses jsdoc to write
+* how to break up commit to keep commit history clean
+*   git add ., git commit -m, git push
