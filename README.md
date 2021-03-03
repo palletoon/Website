@@ -83,3 +83,17 @@ after writing the test
    ```
 the terminal will walk us through initializing eslint
 ![](images/Screenshot%20(151).png)
+
+## 03.01.2021
+* .eslintrc.js gets installed when you initialize eslint
+* can download eslint on the website
+* npm install == yarn add
+* npm i -D eslint-plugin-jest # install
+* in eslintrc.js, under env, under, es2021: true, add 
+```js
+'jest/globals': true,
+```
+and above rules: {
+```js
+plugins: ['jest'],
+```
