@@ -97,3 +97,7 @@ and above rules: {
 ```js
 plugins: ['jest'],
 ```
+* creat warmup-1\sleep_in then README.md and sleep_in.spec.js # which is equivalent of test
+```js
+npm test
+```
