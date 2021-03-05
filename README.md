@@ -34,6 +34,7 @@ Codes are:
 * pip freeze > requirements.txt
 * git add requirements.txt
 * git status
+
 * git commit -m"venv setup"
 * git push
 
@@ -112,8 +113,14 @@ Tips
 * b. camel case (eslint uses this; e.g. sleepIn), snake case (e.g. sleep_in)
 * == is checks value but not the data type. === is a strict equal sign that checks value & data type
 * { = then
-* watchmode: 
+* watchmode for automatic test after save: 
 ```js
 npm test -- --watch
 ```
 * uses jsdoc to write
+
+## 03.05.2021
+### finished sumDouble problem in js
+```js
+const sumDouble = (x, y) => (x === y ? 2 : 1) * (x + y)
+```
