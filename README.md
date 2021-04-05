@@ -131,3 +131,39 @@ const sumDouble = (x, y) => (x === y ? 2 : 1) * (x + y)
 ```js
 console.log(name)
 ```
+```js
+// give name1 value
+let name1 = 5
+
+// set name2 to the value of name1
+let name2 = name1
+
+// change name1
+name1 = 10
+
+
+console.log(name1, name2)
+```
+```js
+let person1 = {
+  first_name: 'Alice',
+  last_name: 'Alison'
+}
+
+// set name2 to the value of name1
+let person2 = person1
+
+// change name1
+person1.first_name = 'Nari'
+
+
+console.log(person1.first_name, person2.first_name)
+```
+```python
+name1 = 'Nari'
+name2 = name1
+name1 = 'Alice'
+
+print(name1, name2)
+```
+* ctrl + d to select recurring text
