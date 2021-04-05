@@ -124,3 +124,10 @@ npm test -- --watch
 ```js
 const sumDouble = (x, y) => (x === y ? 2 : 1) * (x + y)
 ```
+
+## 03.15.2021
+### scope
+* like print in python. find
+```js
+console.log(name)
+```
