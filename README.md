@@ -131,6 +131,7 @@ const sumDouble = (x, y) => (x === y ? 2 : 1) * (x + y)
 ```js
 console.log(name)
 ```
+* when you have a dictionary and a copy of a variable, they point to the same location in memory = changes to one, changes to both. applies ot js and python
 ```js
 // give name1 value
 let name1 = 5
@@ -159,6 +160,26 @@ person1.first_name = 'Nari'
 
 console.log(person1.first_name, person2.first_name)
 ```
+```js
+// give name1 value
+let person1 = {
+  first_name: 'Alice',
+  last_name: 'Alison'
+}
+
+// set name2 to the value of name1
+let person2 = {...person1}
+
+// change name1
+person1.first_name = 'Nari'
+
+
+console.log(person1.first_name, person2.first_name)
+```
+```js
+let person2 = Object.assign({}, person1)
+```
+*python
 ```python
 name1 = 'Nari'
 name2 = name1
@@ -166,4 +187,18 @@ name1 = 'Alice'
 
 print(name1, name2)
 ```
+```python
+person1 = {
+  "first_name": "Alice",
+  "last_name": "Alison"
+}
+person2 = person1
+
+
+print(person1['first_name'], person2['first_name'])
+```
+```python
+person2 = person1.copy()
+```
 * ctrl + d to select recurring text
+* 
