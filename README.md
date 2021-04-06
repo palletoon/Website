@@ -127,6 +127,7 @@ const sumDouble = (x, y) => (x === y ? 2 : 1) * (x + y)
 
 ## 03.15.2021
 ### scope
+* changing location/address or the value
 * like print in python. find
 ```js
 console.log(name)
@@ -179,7 +180,7 @@ console.log(person1.first_name, person2.first_name)
 ```js
 let person2 = Object.assign({}, person1)
 ```
-*python
+* python
 ```python
 name1 = 'Nari'
 name2 = name1
@@ -201,4 +202,4 @@ print(person1['first_name'], person2['first_name'])
 person2 = person1.copy()
 ```
 * ctrl + d to select recurring text
-* 
+
